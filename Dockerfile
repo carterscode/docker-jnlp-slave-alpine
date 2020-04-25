@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent
+FROM jenkins/jnlp-slave:latest
 
 USER root
 RUN apk add docker

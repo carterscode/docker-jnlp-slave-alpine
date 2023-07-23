@@ -52,4 +52,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
           push: true
-          tags: carterfields/stubby:latest
+          tags: carterfields/jnlp-slave-alpine:latest
